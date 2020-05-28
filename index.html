@@ -1,25 +1,51 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Vortex</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/VortexGameWebUnityTemplate.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 640px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Vortex</div>
-      </div>
-    </div>
-  </body>
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
+<html lang "en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Cool Generic Games</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="shortcut icon" href="TemplateData/favicon.ico">
+    	<link rel="stylesheet" href="TemplateData/style.css">
+	<script src="TemplateData/UnityProgress.js"></script>
+    	<script src="Build/UnityLoader.js"></script>
+    	<script>
+      	var unityInstance = UnityLoader.instantiate("unityContainer", "Build/VortexGameWebUnityTemplate.json", {onProgress: UnityProgress});
+   	</script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html"></a>
+			</div>
+			<ul id="navigation">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="features.html">Features</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="webgl-content">
+      		<div id="unityContainer" style="width: 960px; height: 640px"></div>
+      		<div class="footer">
+        		<div class="webgl-logo"></div>
+        		<div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        		<div class="title">Vortex</div>
+     		</div>
+     	</div>
+	<div id="footer">
+		<div class="clearfix">
+			<div id="connect">
+				<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a><a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a><a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a><a href="http://www.freewebsitetemplates.com/misc/contact/" target="_blank" class="tumbler"></a>
+			</div>
+			<p>
+				© 2023 Zerotype. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</body>
 </html>
