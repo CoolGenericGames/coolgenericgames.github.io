@@ -49,6 +49,7 @@ img {
 	background-color: #eee;
 	border-bottom: 1px solid #e6e6e6;
 	padding: 27px 0;
+	text-align:center;
 }
 #header > div, #footer > div {
 	width: 920px;
@@ -57,17 +58,17 @@ img {
 }
 /** Logo **/
 #header .logo {
-	float: left;
+	
 	margin-right: 20px;
 }
 #header .logo a {
-	background: url(../images/logo.png) no-repeat center top;
+	background: url(../images/CoolGenericGames.gif) no-repeat center top;
 	color: #000;
-	display: block;
+	display: inline-block;
 	font: 15px/30px 'Play';
 	height: 20px;
-	width: 76px;
-	padding-top: 68px;
+	width: 158px;
+	padding-top: 75px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
