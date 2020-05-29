@@ -1,50 +1,25 @@
-<!DOCTYPE HTML>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>CoolGenericGames Oficial WebSite</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-<body>
-	<div id="header">
-		<div>
-			<div class="logo">
-				<a href="index.html"></a>
-			</div>
-		</div>
-	</div>
-	<div id="contents">
-		<div class="main">
-			<h1>Juegos&nbsp;</h1>
-			<ul class="news">
-				<li>
-					<div class="date">
-						<img src="images/swapjuego.png" width="80" height="80">
-					</div>
-					<h2>SWAP <span>CoolGenericGames</span></h2>
-					<p>
-						Es un juego de naves del estilo BulletHell. el objetivo es sobrevivir a la fase y obtener la mayor cantidad de puntos posible. puedes jugar tu solo o enfrentarte a un amigo. <span><a href="swap.html" class="more">Jugar</a></span>
-					</p>
-				</li>
-				<li>
-					<div class="date">
-						<img src="images/vortexicon.PNG" width="80" height="80">
-					</div>
-					<h2>Vortex <span>jabc300</span></h2>
-					<p>
-						Descripcion Vortex. <span><a href="vortex.html" class="more">Jugar</a></span>
-					</p>
-				</li>
-				
-			</ul>
-		</div>
-		<div class="sidebar">
-			
-		</div>
-	</div>
-	<div id="footer">
-		
-	</div>
-</body>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | SWAP</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/JuegoSwapWeb.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 768px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">SWAP</div>
+      </div>
+    </div>
+  </body>
 </html>
